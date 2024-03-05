@@ -10,6 +10,10 @@ function Veiculo(proprietario, tipo, modelo, ano, cor){
     
 }
 
+function Residencia (proprietario, tipo, modelo, ano, cor){
+    Ficha.call(this, proprietario, tipo, modelo, ano, cor);
+}
+
 var veiculo1 = new Veiculo("Maria", "Carro", "Fox", 2020, "preto");
 var veiculo2 = new Veiculo("Joao", "Carro", "Ka", 2019, "vermelho");
 var veiculo3 = new Veiculo("Luis", "Moto", "Virago", 2000, "verde");
